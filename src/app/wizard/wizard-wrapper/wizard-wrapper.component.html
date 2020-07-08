@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="close">
+    <ng-container
+      *ngTemplateOutlet="stepComponent.closeTemplateOutlet"
+    ></ng-container>
+  </div>
+
+  <div class="content">
+    <ng-container
+      *ngTemplateOutlet="stepComponent.contentTemplateOutlet"
+    ></ng-container>
+  </div>
+
+  <div class="wizard-actions">
+    <div class="previous">
+      <ng-container
+        *ngTemplateOutlet="stepComponent.previousTemplateOutlet"
+      ></ng-container>
+    </div>
+
+    <div class="dismiss">
+      <ng-container
+        *ngTemplateOutlet="stepComponent.dismissTemplateOutlet"
+      ></ng-container>
+    </div>
+
+    <div class="next">
+      <ng-container
+        *ngTemplateOutlet="stepComponent.nextTemplateOutlet"
+      ></ng-container>
+    </div>
+  </div>
+</div>

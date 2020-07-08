@@ -1,0 +1,19 @@
+<ng-template appContent>
+  <h2>Location</h2>
+
+  <form [formGroup]="formGroup">
+    <input formControlName="input" type="text" />
+  </form>
+
+  This is content 1
+</ng-template>
+<ng-template appNext
+  ><button [disabled]="formGroup.invalid" (click)="next()">
+    Next
+  </button></ng-template
+>
+<ng-template appPrevious></ng-template>
+<ng-template appDismiss
+  ><button (click)="dismiss()">Dismiss</button></ng-template
+>
+<ng-template appClose><button (click)="close()">X</button></ng-template>

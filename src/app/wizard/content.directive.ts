@@ -1,8 +1,8 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appClose]',
+  selector: '[appContent]',
 })
-export class CloseDirective {
+export class ContentDirective {
   constructor() {}
 }

@@ -1,0 +1,32 @@
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  display: block;
+}
+
+.wizard-actions {
+  margin-top: 15px;
+  display: flex;
+}
+
+.wizard-actions .previous {
+  flex: 10;
+}
+
+.wizard-actions .dismiss {
+  flex: 1;
+  text-align: end;
+}
+
+.wizard-actions .next {
+  flex: 1;
+  text-align: end;
+}
